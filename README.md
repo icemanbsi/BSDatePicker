@@ -20,6 +20,17 @@ it, simply add the following line to your Podfile:
 pod "BSDatePicker"
 ```
 
+## How To Use
+
+First thing first, you need to create the BSDatePicker element. If you are using the storyboard or xib, create a UIButton then change the class name to BSDatePicker and the module to BSDatePicker. Please set the viewController attribute and run the setup function.
+
+```swift
+self.bsdFirst.viewController = self
+self.bsdFirst.title = "First Date Picker"
+self.bsdFirst.defaultTitle = "Default"
+self.bsdFirst.setup()
+```
+
 ## Author
 
 Bobby Stenly, iceman.bsi@gmail.com

@@ -7,12 +7,20 @@
 //
 
 import UIKit
+import BSDatePicker
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var bsdDefault: BSDatePicker!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        self.bsdDefault.viewController = self
+        self.bsdDefault.defaultTitle = "Birthday"
+        self.bsdDefault.title = "Birthday"
+        self.bsdDefault.setup()
     }
 
     override func didReceiveMemoryWarning() {

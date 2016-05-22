@@ -1,0 +1,6 @@
+framework module BSDatePicker {
+  umbrella header "BSDatePicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

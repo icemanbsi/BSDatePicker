@@ -1,0 +1,22 @@
+{
+  "name": "BSDatePicker",
+  "version": "0.1.0",
+  "summary": "A short description of BSDatePicker.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/BSDatePicker",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Bobby Stenly": "iceman.bsi@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/BSDatePicker.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BSDatePicker/Classes/**/*"
+}

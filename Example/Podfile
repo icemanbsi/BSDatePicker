@@ -1,11 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'BSDatePicker_Example' do
+target 'BSDatePicker_Example', :exclusive => true do
+  pod 'BSDatePicker', :path => '../'
+end
+
+target 'BSDatePicker_Tests', :exclusive => true do
   pod 'BSDatePicker', :path => '../'
 
-  target 'BSDatePicker_Tests' do
-    inherit! :search_paths
-
-    
-  end
+  
 end

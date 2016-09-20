@@ -1,5 +1,5 @@
 PODS:
-  - BSDatePicker (0.1.0)
+  - BSDatePicker (2.0.0)
 
 DEPENDENCIES:
   - BSDatePicker (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  BSDatePicker: 1abcada381e692ef5152c8c4e6ef5ec7610bfdad
+  BSDatePicker: b1b4351c746e8adcb079ae74321b70988e054372
 
 COCOAPODS: 0.39.0

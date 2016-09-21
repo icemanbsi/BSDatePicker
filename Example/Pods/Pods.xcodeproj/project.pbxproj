@@ -1,1573 +1,696 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>034259682974E0B80924D9C7FEF432BC</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>B588B7260AF941C3CCA2D47FFF94462E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/BSDatePicker/BSDatePicker-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/BSDatePicker/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/BSDatePicker/BSDatePicker.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>BSDatePicker</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>03F90D6CE2EB8E11167FEF6A8A9E1746</key>
-		<dict>
-			<key>fileRef</key>
-			<string>330ED84288B69FB5DE638B8016CBEFC1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>06008EA7859E4A552CB3E1F06ACD9FB5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-BSDatePicker_Example.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>08C8575BFB423C3A7C04CF10A4180836</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>BSDatePicker-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1012E3B6EB3AB7001B7102DD09D51640</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7F84C1AB052C30BE64AFBFF4054F71FF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>101C6BF610353F4E2171262DBB581207</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>2577B54F2526E4F19387B3FBFCDB4B36</string>
-			<key>buildPhases</key>
-			<array>
-				<string>196FEF4C8897C7B311F18F18923BD260</string>
-				<string>2196235263D8750975C234A6DF0293F9</string>
-				<string>87CB73B9CE78B999DC1502780745DCC6</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>BSDatePicker</string>
-			<key>productName</key>
-			<string>BSDatePicker</string>
-			<key>productReference</key>
-			<string>2D72E6545C89C80B4A10764E353999DA</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>10DE1947DAC0ED28F6C0A9F9BD75D546</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>13914BDD3C674F2860FAA96F37AA7148</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>BSDatePicker</string>
-			<key>target</key>
-			<string>101C6BF610353F4E2171262DBB581207</string>
-			<key>targetProxy</key>
-			<string>2595B9E0F555630BE891D98E2E281957</string>
-		</dict>
-		<key>15749AC0B6F176F717F894A4DF755A25</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>51A81088027528EBE2E77CF559485EBE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>196FEF4C8897C7B311F18F18923BD260</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>304E74519B52F8D3E3D3E1598E9E049F</string>
-				<string>1012E3B6EB3AB7001B7102DD09D51640</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>218868A3FDA2D37E9BA3F3D33DFA8D45</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-BSDatePicker_Tests-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2196235263D8750975C234A6DF0293F9</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>FC8C23B7849318739DD4FD454B52F9A2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>2266D6C69DADA92BEBC1314C3B6B5478</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>BSDatePicker</string>
-			<key>target</key>
-			<string>101C6BF610353F4E2171262DBB581207</string>
-			<key>targetProxy</key>
-			<string>EDB0536609D199A03062B334B6BB4E5D</string>
-		</dict>
-		<key>22B0C392B8F12408934E53682ACBAF0D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2D72E6545C89C80B4A10764E353999DA</string>
-				<string>BC76106AD8EE130409C00123FD197E70</string>
-				<string>38A1421901C5BE66530EE172982B6B09</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2329147776FE522D96544895FE5BD4C3</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>5B6C4996C4934138915B83D660CF94A4</string>
-			<key>buildPhases</key>
-			<array>
-				<string>D71C1FD0DDD9FE11D946E63030397A09</string>
-				<string>E6EFDADC0DF234A1373768EAB3CE92A4</string>
-				<string>CE0887AEDD3B5562B60EE5BFBE255DE2</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>2266D6C69DADA92BEBC1314C3B6B5478</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-BSDatePicker_Tests</string>
-			<key>productName</key>
-			<string>Pods-BSDatePicker_Tests</string>
-			<key>productReference</key>
-			<string>38A1421901C5BE66530EE172982B6B09</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>25312AD23E440636A82F538A3CA78E1F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-BSDatePicker_Tests.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>254F584E48466A7566979C5DAEB00FDF</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>F0E4DAC29E3E234222DCBB529C7E1203</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-BSDatePicker_Tests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-BSDatePicker_Tests/Pods-BSDatePicker_Tests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_BSDatePicker_Tests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>2577B54F2526E4F19387B3FBFCDB4B36</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>F74BB540448F126DB150595285401EAD</string>
-				<string>034259682974E0B80924D9C7FEF432BC</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>2595B9E0F555630BE891D98E2E281957</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>101C6BF610353F4E2171262DBB581207</string>
-			<key>remoteInfo</key>
-			<string>BSDatePicker</string>
-		</dict>
-		<key>2D72E6545C89C80B4A10764E353999DA</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>BSDatePicker.framework</string>
-			<key>path</key>
-			<string>BSDatePicker.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>552D02D5BA751AC2E8790D2811D496CA</string>
-				<string>10DE1947DAC0ED28F6C0A9F9BD75D546</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>2FEC35B04B2744B1B33364E5CFF44A02</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-BSDatePicker_Tests-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>304E74519B52F8D3E3D3E1598E9E049F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8AE6ED00ECA8A32B97BA7C1F13673B0A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>30AC4C3817E3C5CF65CCAA79905F92F8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>330ED84288B69FB5DE638B8016CBEFC1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-BSDatePicker_Example-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>38A1421901C5BE66530EE172982B6B09</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_BSDatePicker_Tests.framework</string>
-			<key>path</key>
-			<string>Pods_BSDatePicker_Tests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>3E4E89230EF59BC255123B67864ACF77</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>43BB44EE13540C832AD70F72807D5CF9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>50147B82DD2D64D09639489B334236A8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>777FEB62D2811E8E7F000C98EF198929</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>5063F0852B518EB87450DF06D1F6B299</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-BSDatePicker_Tests-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>51A81088027528EBE2E77CF559485EBE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3E4E89230EF59BC255123B67864ACF77</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>54577060DBDF5394B20D23BEAA63521E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>98FD3DECA75A58416298F6628F22A89A</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-BSDatePicker_Tests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-BSDatePicker_Tests/Pods-BSDatePicker_Tests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_BSDatePicker_Tests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>552D02D5BA751AC2E8790D2811D496CA</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>5B6C4996C4934138915B83D660CF94A4</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>54577060DBDF5394B20D23BEAA63521E</string>
-				<string>254F584E48466A7566979C5DAEB00FDF</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>5B99B90D0793F74D5270EFB01B309E2C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>08C8575BFB423C3A7C04CF10A4180836</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>5C74761644FCA887E6D1B5D5DD24C2EF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-BSDatePicker_Example-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5D44C05E75CCE7613CC7E88BC8F77BE7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-BSDatePicker_Tests-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5DE46D2A832FE8B34D3B36F1AF620822</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-BSDatePicker_Tests-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5F188B02C3F9F610C95BCEC4DCADAAF8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>85C872E6BCC1D4CB36A6CFD994B30A5C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>BSDatePicker</string>
-			<key>path</key>
-			<string>BSDatePicker</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5F546A8835F2A288CAAFDC2414FFFA7C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-BSDatePicker_Example.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6013CFB032CC9C96CDB95A9326E46DFE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5F188B02C3F9F610C95BCEC4DCADAAF8</string>
-				<string>ED0E1FAAD320B24AD4AF839236FC2216</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>BSDatePicker</string>
-			<key>path</key>
-			<string>../..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6BC7740E793504738200A097CF74FDAF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6013CFB032CC9C96CDB95A9326E46DFE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6CB47053C1D9673C434EAD3D04387781</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6D96FD2AE649B8A817C0DAE4130DF2F4</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>B0F38540CFA64414FC1FF31B9596BAE0</string>
-				<string>BF5DACD39AD3B9E40A4D1C38D4889032</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>724BA8F6B62CAD89B3406C0E4CEECD02</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>6D96FD2AE649B8A817C0DAE4130DF2F4</string>
-			<key>buildPhases</key>
-			<array>
-				<string>CCD06A404E460B381FCE3DA2CB73DDB0</string>
-				<string>15749AC0B6F176F717F894A4DF755A25</string>
-				<string>50147B82DD2D64D09639489B334236A8</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>13914BDD3C674F2860FAA96F37AA7148</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-BSDatePicker_Example</string>
-			<key>productName</key>
-			<string>Pods-BSDatePicker_Example</string>
-			<key>productReference</key>
-			<string>BC76106AD8EE130409C00123FD197E70</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>7270DD48982C2AFFB2D3F75F296373D7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F062263410BFCE5C85C3353F69864FE4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>777FEB62D2811E8E7F000C98EF198929</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5C74761644FCA887E6D1B5D5DD24C2EF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>7DB346D0F39D3F0E887471402A8071AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
-				<string>6BC7740E793504738200A097CF74FDAF</string>
-				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
-				<string>22B0C392B8F12408934E53682ACBAF0D</string>
-				<string>92B78893210E7B53F6BF58B65D930C14</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7F84C1AB052C30BE64AFBFF4054F71FF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>BSDatePicker.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>806675FECD70C45724080C958BCE5AC5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6CB47053C1D9673C434EAD3D04387781</string>
-				<string>06008EA7859E4A552CB3E1F06ACD9FB5</string>
-				<string>BD7C24B09F4D71370C62DD64D9FD68CC</string>
-				<string>F5750971B217D38B0C87D28C6F868F8F</string>
-				<string>330ED84288B69FB5DE638B8016CBEFC1</string>
-				<string>9741AC2BDD302504F1E216D712C4CCDF</string>
-				<string>C3187D627061442833A6F582B2A1B67D</string>
-				<string>5C74761644FCA887E6D1B5D5DD24C2EF</string>
-				<string>98794300528960697296F0DEC820C5F5</string>
-				<string>5F546A8835F2A288CAAFDC2414FFFA7C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-BSDatePicker_Example</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-BSDatePicker_Example</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>85C872E6BCC1D4CB36A6CFD994B30A5C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7F84C1AB052C30BE64AFBFF4054F71FF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Classes</string>
-			<key>path</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>87CB73B9CE78B999DC1502780745DCC6</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>5B99B90D0793F74D5270EFB01B309E2C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8AE6ED00ECA8A32B97BA7C1F13673B0A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>BSDatePicker-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>92B78893210E7B53F6BF58B65D930C14</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>806675FECD70C45724080C958BCE5AC5</string>
-				<string>C028E958267034B708CDF2B17656452A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9741AC2BDD302504F1E216D712C4CCDF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-BSDatePicker_Example-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>98794300528960697296F0DEC820C5F5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-BSDatePicker_Example.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>98FD3DECA75A58416298F6628F22A89A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-BSDatePicker_Tests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A21938A89014A8591E4FB07581F47FC2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3E4E89230EF59BC255123B67864ACF77</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A3F9A476D80DD2C9E0B72DEE594A72CF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>218868A3FDA2D37E9BA3F3D33DFA8D45</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AE9A4EE3F1A7B8EFBCDD9552731DF8CC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>BSDatePicker.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B0F38540CFA64414FC1FF31B9596BAE0</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>98794300528960697296F0DEC820C5F5</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-BSDatePicker_Example/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-BSDatePicker_Example/Pods-BSDatePicker_Example.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_BSDatePicker_Example</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>B588B7260AF941C3CCA2D47FFF94462E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>BSDatePicker.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>BC3CA7F9E30CC8F7E2DD044DD34432FC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BF6342C8B29F4CEEA088EFF7AB4DE362</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC76106AD8EE130409C00123FD197E70</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_BSDatePicker_Example.framework</string>
-			<key>path</key>
-			<string>Pods_BSDatePicker_Example.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>BD7C24B09F4D71370C62DD64D9FD68CC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-BSDatePicker_Example-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF5DACD39AD3B9E40A4D1C38D4889032</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>5F546A8835F2A288CAAFDC2414FFFA7C</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-BSDatePicker_Example/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-BSDatePicker_Example/Pods-BSDatePicker_Example.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_BSDatePicker_Example</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>BF6342C8B29F4CEEA088EFF7AB4DE362</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3E4E89230EF59BC255123B67864ACF77</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C028E958267034B708CDF2B17656452A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>43BB44EE13540C832AD70F72807D5CF9</string>
-				<string>25312AD23E440636A82F538A3CA78E1F</string>
-				<string>5D44C05E75CCE7613CC7E88BC8F77BE7</string>
-				<string>5DE46D2A832FE8B34D3B36F1AF620822</string>
-				<string>218868A3FDA2D37E9BA3F3D33DFA8D45</string>
-				<string>5063F0852B518EB87450DF06D1F6B299</string>
-				<string>2FEC35B04B2744B1B33364E5CFF44A02</string>
-				<string>F062263410BFCE5C85C3353F69864FE4</string>
-				<string>98FD3DECA75A58416298F6628F22A89A</string>
-				<string>F0E4DAC29E3E234222DCBB529C7E1203</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-BSDatePicker_Tests</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-BSDatePicker_Tests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C3187D627061442833A6F582B2A1B67D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-BSDatePicker_Example-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CCD06A404E460B381FCE3DA2CB73DDB0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>03F90D6CE2EB8E11167FEF6A8A9E1746</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>CE0887AEDD3B5562B60EE5BFBE255DE2</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>7270DD48982C2AFFB2D3F75F296373D7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D41D8CD98F00B204E9800998ECF8427E</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0700</string>
-				<key>LastUpgradeCheck</key>
-				<string>0700</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>2D8E8EC45A3A1A1D94AE762CB5028504</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>7DB346D0F39D3F0E887471402A8071AB</string>
-			<key>productRefGroup</key>
-			<string>22B0C392B8F12408934E53682ACBAF0D</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>101C6BF610353F4E2171262DBB581207</string>
-				<string>724BA8F6B62CAD89B3406C0E4CEECD02</string>
-				<string>2329147776FE522D96544895FE5BD4C3</string>
-			</array>
-		</dict>
-		<key>D71C1FD0DDD9FE11D946E63030397A09</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A3F9A476D80DD2C9E0B72DEE594A72CF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>DB7C5D256673DD07AD53AEF03BE97660</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>BSDatePicker-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E6EFDADC0DF234A1373768EAB3CE92A4</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A21938A89014A8591E4FB07581F47FC2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>ED0E1FAAD320B24AD4AF839236FC2216</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AE9A4EE3F1A7B8EFBCDD9552731DF8CC</string>
-				<string>B588B7260AF941C3CCA2D47FFF94462E</string>
-				<string>8AE6ED00ECA8A32B97BA7C1F13673B0A</string>
-				<string>DB7C5D256673DD07AD53AEF03BE97660</string>
-				<string>08C8575BFB423C3A7C04CF10A4180836</string>
-				<string>30AC4C3817E3C5CF65CCAA79905F92F8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Example/Pods/Target Support Files/BSDatePicker</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EDB0536609D199A03062B334B6BB4E5D</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>101C6BF610353F4E2171262DBB581207</string>
-			<key>remoteInfo</key>
-			<string>BSDatePicker</string>
-		</dict>
-		<key>F062263410BFCE5C85C3353F69864FE4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-BSDatePicker_Tests-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F0E4DAC29E3E234222DCBB529C7E1203</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-BSDatePicker_Tests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F5750971B217D38B0C87D28C6F868F8F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-BSDatePicker_Example-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F74BB540448F126DB150595285401EAD</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>B588B7260AF941C3CCA2D47FFF94462E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/BSDatePicker/BSDatePicker-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/BSDatePicker/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/BSDatePicker/BSDatePicker.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>BSDatePicker</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>FC8C23B7849318739DD4FD454B52F9A2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3E4E89230EF59BC255123B67864ACF77</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>D41D8CD98F00B204E9800998ECF8427E</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03F90D6CE2EB8E11167FEF6A8A9E1746 /* Pods-BSDatePicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 330ED84288B69FB5DE638B8016CBEFC1 /* Pods-BSDatePicker_Example-dummy.m */; };
+		1012E3B6EB3AB7001B7102DD09D51640 /* BSDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F84C1AB052C30BE64AFBFF4054F71FF /* BSDatePicker.swift */; };
+		304E74519B52F8D3E3D3E1598E9E049F /* BSDatePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE6ED00ECA8A32B97BA7C1F13673B0A /* BSDatePicker-dummy.m */; };
+		51A81088027528EBE2E77CF559485EBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		5B99B90D0793F74D5270EFB01B309E2C /* BSDatePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08C8575BFB423C3A7C04CF10A4180836 /* BSDatePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7270DD48982C2AFFB2D3F75F296373D7 /* Pods-BSDatePicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F062263410BFCE5C85C3353F69864FE4 /* Pods-BSDatePicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		777FEB62D2811E8E7F000C98EF198929 /* Pods-BSDatePicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C74761644FCA887E6D1B5D5DD24C2EF /* Pods-BSDatePicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A21938A89014A8591E4FB07581F47FC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		A3F9A476D80DD2C9E0B72DEE594A72CF /* Pods-BSDatePicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 218868A3FDA2D37E9BA3F3D33DFA8D45 /* Pods-BSDatePicker_Tests-dummy.m */; };
+		FC8C23B7849318739DD4FD454B52F9A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2595B9E0F555630BE891D98E2E281957 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 101C6BF610353F4E2171262DBB581207;
+			remoteInfo = BSDatePicker;
+		};
+		EDB0536609D199A03062B334B6BB4E5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 101C6BF610353F4E2171262DBB581207;
+			remoteInfo = BSDatePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06008EA7859E4A552CB3E1F06ACD9FB5 /* Pods-BSDatePicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BSDatePicker_Example.modulemap"; sourceTree = "<group>"; };
+		08C8575BFB423C3A7C04CF10A4180836 /* BSDatePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BSDatePicker-umbrella.h"; sourceTree = "<group>"; };
+		218868A3FDA2D37E9BA3F3D33DFA8D45 /* Pods-BSDatePicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BSDatePicker_Tests-dummy.m"; sourceTree = "<group>"; };
+		25312AD23E440636A82F538A3CA78E1F /* Pods-BSDatePicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BSDatePicker_Tests.modulemap"; sourceTree = "<group>"; };
+		2D72E6545C89C80B4A10764E353999DA /* BSDatePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BSDatePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FEC35B04B2744B1B33364E5CFF44A02 /* Pods-BSDatePicker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BSDatePicker_Tests-resources.sh"; sourceTree = "<group>"; };
+		30AC4C3817E3C5CF65CCAA79905F92F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		330ED84288B69FB5DE638B8016CBEFC1 /* Pods-BSDatePicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BSDatePicker_Example-dummy.m"; sourceTree = "<group>"; };
+		38A1421901C5BE66530EE172982B6B09 /* Pods_BSDatePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BSDatePicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		43BB44EE13540C832AD70F72807D5CF9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5063F0852B518EB87450DF06D1F6B299 /* Pods-BSDatePicker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BSDatePicker_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		5C74761644FCA887E6D1B5D5DD24C2EF /* Pods-BSDatePicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BSDatePicker_Example-umbrella.h"; sourceTree = "<group>"; };
+		5D44C05E75CCE7613CC7E88BC8F77BE7 /* Pods-BSDatePicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BSDatePicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5DE46D2A832FE8B34D3B36F1AF620822 /* Pods-BSDatePicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BSDatePicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5F546A8835F2A288CAAFDC2414FFFA7C /* Pods-BSDatePicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BSDatePicker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6CB47053C1D9673C434EAD3D04387781 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F84C1AB052C30BE64AFBFF4054F71FF /* BSDatePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BSDatePicker.swift; sourceTree = "<group>"; };
+		8AE6ED00ECA8A32B97BA7C1F13673B0A /* BSDatePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BSDatePicker-dummy.m"; sourceTree = "<group>"; };
+		9741AC2BDD302504F1E216D712C4CCDF /* Pods-BSDatePicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BSDatePicker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		98794300528960697296F0DEC820C5F5 /* Pods-BSDatePicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BSDatePicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		98FD3DECA75A58416298F6628F22A89A /* Pods-BSDatePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BSDatePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE9A4EE3F1A7B8EFBCDD9552731DF8CC /* BSDatePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BSDatePicker.modulemap; sourceTree = "<group>"; };
+		B588B7260AF941C3CCA2D47FFF94462E /* BSDatePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BSDatePicker.xcconfig; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC76106AD8EE130409C00123FD197E70 /* Pods_BSDatePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BSDatePicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD7C24B09F4D71370C62DD64D9FD68CC /* Pods-BSDatePicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BSDatePicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C3187D627061442833A6F582B2A1B67D /* Pods-BSDatePicker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BSDatePicker_Example-resources.sh"; sourceTree = "<group>"; };
+		DB7C5D256673DD07AD53AEF03BE97660 /* BSDatePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BSDatePicker-prefix.pch"; sourceTree = "<group>"; };
+		F062263410BFCE5C85C3353F69864FE4 /* Pods-BSDatePicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BSDatePicker_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F0E4DAC29E3E234222DCBB529C7E1203 /* Pods-BSDatePicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BSDatePicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F5750971B217D38B0C87D28C6F868F8F /* Pods-BSDatePicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BSDatePicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15749AC0B6F176F717F894A4DF755A25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51A81088027528EBE2E77CF559485EBE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2196235263D8750975C234A6DF0293F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC8C23B7849318739DD4FD454B52F9A2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6EFDADC0DF234A1373768EAB3CE92A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21938A89014A8591E4FB07581F47FC2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22B0C392B8F12408934E53682ACBAF0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D72E6545C89C80B4A10764E353999DA /* BSDatePicker.framework */,
+				BC76106AD8EE130409C00123FD197E70 /* Pods_BSDatePicker_Example.framework */,
+				38A1421901C5BE66530EE172982B6B09 /* Pods_BSDatePicker_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F188B02C3F9F610C95BCEC4DCADAAF8 /* BSDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				85C872E6BCC1D4CB36A6CFD994B30A5C /* Classes */,
+			);
+			path = BSDatePicker;
+			sourceTree = "<group>";
+		};
+		6013CFB032CC9C96CDB95A9326E46DFE /* BSDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				5F188B02C3F9F610C95BCEC4DCADAAF8 /* BSDatePicker */,
+				ED0E1FAAD320B24AD4AF839236FC2216 /* Support Files */,
+			);
+			name = BSDatePicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6BC7740E793504738200A097CF74FDAF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6013CFB032CC9C96CDB95A9326E46DFE /* BSDatePicker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				6BC7740E793504738200A097CF74FDAF /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				22B0C392B8F12408934E53682ACBAF0D /* Products */,
+				92B78893210E7B53F6BF58B65D930C14 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		806675FECD70C45724080C958BCE5AC5 /* Pods-BSDatePicker_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6CB47053C1D9673C434EAD3D04387781 /* Info.plist */,
+				06008EA7859E4A552CB3E1F06ACD9FB5 /* Pods-BSDatePicker_Example.modulemap */,
+				BD7C24B09F4D71370C62DD64D9FD68CC /* Pods-BSDatePicker_Example-acknowledgements.markdown */,
+				F5750971B217D38B0C87D28C6F868F8F /* Pods-BSDatePicker_Example-acknowledgements.plist */,
+				330ED84288B69FB5DE638B8016CBEFC1 /* Pods-BSDatePicker_Example-dummy.m */,
+				9741AC2BDD302504F1E216D712C4CCDF /* Pods-BSDatePicker_Example-frameworks.sh */,
+				C3187D627061442833A6F582B2A1B67D /* Pods-BSDatePicker_Example-resources.sh */,
+				5C74761644FCA887E6D1B5D5DD24C2EF /* Pods-BSDatePicker_Example-umbrella.h */,
+				98794300528960697296F0DEC820C5F5 /* Pods-BSDatePicker_Example.debug.xcconfig */,
+				5F546A8835F2A288CAAFDC2414FFFA7C /* Pods-BSDatePicker_Example.release.xcconfig */,
+			);
+			name = "Pods-BSDatePicker_Example";
+			path = "Target Support Files/Pods-BSDatePicker_Example";
+			sourceTree = "<group>";
+		};
+		85C872E6BCC1D4CB36A6CFD994B30A5C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7F84C1AB052C30BE64AFBFF4054F71FF /* BSDatePicker.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		92B78893210E7B53F6BF58B65D930C14 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				806675FECD70C45724080C958BCE5AC5 /* Pods-BSDatePicker_Example */,
+				C028E958267034B708CDF2B17656452A /* Pods-BSDatePicker_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C028E958267034B708CDF2B17656452A /* Pods-BSDatePicker_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				43BB44EE13540C832AD70F72807D5CF9 /* Info.plist */,
+				25312AD23E440636A82F538A3CA78E1F /* Pods-BSDatePicker_Tests.modulemap */,
+				5D44C05E75CCE7613CC7E88BC8F77BE7 /* Pods-BSDatePicker_Tests-acknowledgements.markdown */,
+				5DE46D2A832FE8B34D3B36F1AF620822 /* Pods-BSDatePicker_Tests-acknowledgements.plist */,
+				218868A3FDA2D37E9BA3F3D33DFA8D45 /* Pods-BSDatePicker_Tests-dummy.m */,
+				5063F0852B518EB87450DF06D1F6B299 /* Pods-BSDatePicker_Tests-frameworks.sh */,
+				2FEC35B04B2744B1B33364E5CFF44A02 /* Pods-BSDatePicker_Tests-resources.sh */,
+				F062263410BFCE5C85C3353F69864FE4 /* Pods-BSDatePicker_Tests-umbrella.h */,
+				98FD3DECA75A58416298F6628F22A89A /* Pods-BSDatePicker_Tests.debug.xcconfig */,
+				F0E4DAC29E3E234222DCBB529C7E1203 /* Pods-BSDatePicker_Tests.release.xcconfig */,
+			);
+			name = "Pods-BSDatePicker_Tests";
+			path = "Target Support Files/Pods-BSDatePicker_Tests";
+			sourceTree = "<group>";
+		};
+		ED0E1FAAD320B24AD4AF839236FC2216 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE9A4EE3F1A7B8EFBCDD9552731DF8CC /* BSDatePicker.modulemap */,
+				B588B7260AF941C3CCA2D47FFF94462E /* BSDatePicker.xcconfig */,
+				8AE6ED00ECA8A32B97BA7C1F13673B0A /* BSDatePicker-dummy.m */,
+				DB7C5D256673DD07AD53AEF03BE97660 /* BSDatePicker-prefix.pch */,
+				08C8575BFB423C3A7C04CF10A4180836 /* BSDatePicker-umbrella.h */,
+				30AC4C3817E3C5CF65CCAA79905F92F8 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BSDatePicker";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		50147B82DD2D64D09639489B334236A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777FEB62D2811E8E7F000C98EF198929 /* Pods-BSDatePicker_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CB73B9CE78B999DC1502780745DCC6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B99B90D0793F74D5270EFB01B309E2C /* BSDatePicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE0887AEDD3B5562B60EE5BFBE255DE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7270DD48982C2AFFB2D3F75F296373D7 /* Pods-BSDatePicker_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		101C6BF610353F4E2171262DBB581207 /* BSDatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2577B54F2526E4F19387B3FBFCDB4B36 /* Build configuration list for PBXNativeTarget "BSDatePicker" */;
+			buildPhases = (
+				196FEF4C8897C7B311F18F18923BD260 /* Sources */,
+				2196235263D8750975C234A6DF0293F9 /* Frameworks */,
+				87CB73B9CE78B999DC1502780745DCC6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BSDatePicker;
+			productName = BSDatePicker;
+			productReference = 2D72E6545C89C80B4A10764E353999DA /* BSDatePicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2329147776FE522D96544895FE5BD4C3 /* Pods-BSDatePicker_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B6C4996C4934138915B83D660CF94A4 /* Build configuration list for PBXNativeTarget "Pods-BSDatePicker_Tests" */;
+			buildPhases = (
+				D71C1FD0DDD9FE11D946E63030397A09 /* Sources */,
+				E6EFDADC0DF234A1373768EAB3CE92A4 /* Frameworks */,
+				CE0887AEDD3B5562B60EE5BFBE255DE2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2266D6C69DADA92BEBC1314C3B6B5478 /* PBXTargetDependency */,
+			);
+			name = "Pods-BSDatePicker_Tests";
+			productName = "Pods-BSDatePicker_Tests";
+			productReference = 38A1421901C5BE66530EE172982B6B09 /* Pods_BSDatePicker_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		724BA8F6B62CAD89B3406C0E4CEECD02 /* Pods-BSDatePicker_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D96FD2AE649B8A817C0DAE4130DF2F4 /* Build configuration list for PBXNativeTarget "Pods-BSDatePicker_Example" */;
+			buildPhases = (
+				CCD06A404E460B381FCE3DA2CB73DDB0 /* Sources */,
+				15749AC0B6F176F717F894A4DF755A25 /* Frameworks */,
+				50147B82DD2D64D09639489B334236A8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13914BDD3C674F2860FAA96F37AA7148 /* PBXTargetDependency */,
+			);
+			name = "Pods-BSDatePicker_Example";
+			productName = "Pods-BSDatePicker_Example";
+			productReference = BC76106AD8EE130409C00123FD197E70 /* Pods_BSDatePicker_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					101C6BF610353F4E2171262DBB581207 = {
+						LastSwiftMigration = 0800;
+					};
+					2329147776FE522D96544895FE5BD4C3 = {
+						LastSwiftMigration = 0800;
+					};
+					724BA8F6B62CAD89B3406C0E4CEECD02 = {
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 22B0C392B8F12408934E53682ACBAF0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				101C6BF610353F4E2171262DBB581207 /* BSDatePicker */,
+				724BA8F6B62CAD89B3406C0E4CEECD02 /* Pods-BSDatePicker_Example */,
+				2329147776FE522D96544895FE5BD4C3 /* Pods-BSDatePicker_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		196FEF4C8897C7B311F18F18923BD260 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				304E74519B52F8D3E3D3E1598E9E049F /* BSDatePicker-dummy.m in Sources */,
+				1012E3B6EB3AB7001B7102DD09D51640 /* BSDatePicker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD06A404E460B381FCE3DA2CB73DDB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F90D6CE2EB8E11167FEF6A8A9E1746 /* Pods-BSDatePicker_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D71C1FD0DDD9FE11D946E63030397A09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F9A476D80DD2C9E0B72DEE594A72CF /* Pods-BSDatePicker_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13914BDD3C674F2860FAA96F37AA7148 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BSDatePicker;
+			target = 101C6BF610353F4E2171262DBB581207 /* BSDatePicker */;
+			targetProxy = 2595B9E0F555630BE891D98E2E281957 /* PBXContainerItemProxy */;
+		};
+		2266D6C69DADA92BEBC1314C3B6B5478 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BSDatePicker;
+			target = 101C6BF610353F4E2171262DBB581207 /* BSDatePicker */;
+			targetProxy = EDB0536609D199A03062B334B6BB4E5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		034259682974E0B80924D9C7FEF432BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B588B7260AF941C3CCA2D47FFF94462E /* BSDatePicker.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BSDatePicker/BSDatePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BSDatePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BSDatePicker/BSDatePicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BSDatePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		254F584E48466A7566979C5DAEB00FDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0E4DAC29E3E234222DCBB529C7E1203 /* Pods-BSDatePicker_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BSDatePicker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BSDatePicker_Tests/Pods-BSDatePicker_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_BSDatePicker_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		54577060DBDF5394B20D23BEAA63521E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98FD3DECA75A58416298F6628F22A89A /* Pods-BSDatePicker_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BSDatePicker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BSDatePicker_Tests/Pods-BSDatePicker_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_BSDatePicker_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B0F38540CFA64414FC1FF31B9596BAE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98794300528960697296F0DEC820C5F5 /* Pods-BSDatePicker_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BSDatePicker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BSDatePicker_Example/Pods-BSDatePicker_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_BSDatePicker_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BF5DACD39AD3B9E40A4D1C38D4889032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F546A8835F2A288CAAFDC2414FFFA7C /* Pods-BSDatePicker_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BSDatePicker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BSDatePicker_Example/Pods-BSDatePicker_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_BSDatePicker_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F74BB540448F126DB150595285401EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B588B7260AF941C3CCA2D47FFF94462E /* BSDatePicker.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BSDatePicker/BSDatePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BSDatePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BSDatePicker/BSDatePicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BSDatePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2577B54F2526E4F19387B3FBFCDB4B36 /* Build configuration list for PBXNativeTarget "BSDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F74BB540448F126DB150595285401EAD /* Debug */,
+				034259682974E0B80924D9C7FEF432BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B6C4996C4934138915B83D660CF94A4 /* Build configuration list for PBXNativeTarget "Pods-BSDatePicker_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54577060DBDF5394B20D23BEAA63521E /* Debug */,
+				254F584E48466A7566979C5DAEB00FDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D96FD2AE649B8A817C0DAE4130DF2F4 /* Build configuration list for PBXNativeTarget "Pods-BSDatePicker_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0F38540CFA64414FC1FF31B9596BAE0 /* Debug */,
+				BF5DACD39AD3B9E40A4D1C38D4889032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
